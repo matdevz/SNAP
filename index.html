@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <link rel="stylesheet" href="./assets/styles/global.css" />
+        <link rel="stylesheet" href="./assets/styles/head.css" />
+        <link rel="stylesheet" href="./assets/styles/hero.css" />
+        <link rel="stylesheet" href="./assets/styles/footer.css" />
+        <title>SNAP | Home</title>
+    </head>
+
+    <body>
+        <header class="head">
+            <div class="head__logo">
+                <img src="./assets/images/logo.svg" alt="Logo SNAP" />
+            </div>
+
+            <input class="head__menu" type="checkbox" id="btnMenu" />
+            <label class="menu" for="btnMenu">
+                <div class="head__menu-container">
+                    <span class="head__menu-line"></span>
+                </div>
+            </label>
+
+            <nav id="navMenu" class="head__nav">
+                <div class="head__nav-container">
+                    <div class="head__nav--links">
+                        <ul class="head__nav-list">
+                            <li>
+                                <details class="head__nav-collapse">
+                                    <summary>Features</summary>
+
+                                    <ul>
+                                        <li>
+                                            <a href="#"
+                                                ><img
+                                                    src="./assets/images/icon-todo.svg"
+                                                    alt="Icon Todo"
+                                                />Todo List</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                ><img
+                                                    src="./assets/images/icon-calendar.svg"
+                                                    alt="Icon Calendar"
+                                                />Calendar</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                ><img
+                                                    src="./assets/images/icon-reminders.svg"
+                                                    alt="Icon Reminders"
+                                                />Reminders</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                ><img
+                                                    src="./assets/images/icon-planning.svg"
+                                                    alt="Icon Planning"
+                                                />Planning</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="head__nav-collapse">
+                                    <summary>Company</summary>
+
+                                    <ul>
+                                        <li>History</li>
+                                        <li>Our Team</li>
+                                        <li>Blog</li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <a class="head__nav-link--careers" href="#"
+                                    >Careers</a
+                                >
+                            </li>
+                            <li>
+                                <a class="head__nav-link--about" href="#"
+                                    >About</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="head__nav-buttons">
+                        <button class="head__nav-btn login">Login</button>
+                        <button class="head__nav-btn register">Register</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="hero">
+            <div class="hero__wrapper"></div>
+
+            <div class="hero__content">
+                <h1 class="hero__title">Make remote work</h1>
+
+                <p class="hero__text">
+                    Get your team in sync, no matter your location. Streamline
+                    processe, create team rituals, and watch productivity soar.
+                </p>
+
+                <button class="hero__btn">Learn More</button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__clients">
+                <img src="./assets/images/client-databiz.svg" alt="Data biz" />
+                <img
+                    src="./assets/images/client-audiophile.svg"
+                    alt="Audiophile"
+                />
+                <img src="./assets/images/client-meet.svg" alt="meet" />
+                <img src="./assets/images/client-maker.svg" alt="maker" />
+            </div>
+        </footer>
+
+        <script src="./assets/scripts/index.js"></script>
+    </body>
+</html>

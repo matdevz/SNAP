@@ -1,0 +1,34 @@
+.footer {
+    padding: 20px;
+}
+.footer__clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer__clients img {
+    width: 15%;
+}
+
+@media (max-width: 500px) {
+    .footer__clients img {
+        width: 20%;
+    }
+}
+@media (min-width: 1200px) {
+    .footer {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .footer__clients {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .footer__clients img {
+        width: 100px;
+    }
+}

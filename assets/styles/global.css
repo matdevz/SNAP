@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+body {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+}
+:root {
+    --width-desktop: 1440px;
+    --width-tablet: 728px;
+    --width-mobile: 375px;
+
+    --color-white: hsl(0, 0%, 98%);
+    --color-gray: hsl(0, 0%, 41%);
+    --color-black: hsl(0, 0%, 8%);
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
